@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -26,6 +27,11 @@ namespace NederlandseLoterij.KrasLoterij.Service
             var lotteries =m_readOnlyRepository.GetItems<Lottery>();
 
             return await lotteries.Select(x => m_mapper.Map<LotteryDTO>(x)).ToListAsync();
+        }
+
+        public async Task<bool> IsScratchedByUserAsync(Guid userId)
+        {
+            return await m_readOnlyRepository.AnyAsync<Lottery>(l => l.UserId == userId);
         }
     }
 }

@@ -32,23 +32,29 @@ namespace NederlandseLoterij.KrasLoterij.Repository
             var lotteries = new List<Lottery>();
             var maxPrizeLottery = new Lottery()
             {
-                Id = 1,
                 Prize = 25000,
                 UserId = null
             };
             lotteries.Add(maxPrizeLottery);
 
-            for (int i = 2; i <= 10000; i++)
+            var maxLottery = 10000;
+            for (int i = 2; i <= maxLottery; i++)
             {
                 lotteries.Add(new Lottery()
                 {
-                    Id = i,
                     Prize = i <= 100 ? rand.Next(1000) : null,
                     UserId = null
                 });
             }
 
-            return lotteries;
+            var randomLotteries = lotteries.OrderBy(item => rand.Next()).ToList();
+
+            for (var i = 1; i <= maxLottery; i++)
+            {
+                randomLotteries[i-1].Id = i;
+            }
+
+            return randomLotteries;
         }
 
     }

@@ -20,4 +20,10 @@
   background: #a9cafd;
   pointer-events: none;
 }
+.user-id{
+  background: gray;
+  overflow: hidden;
+  text-align: center;
+  float:right;
+}
 

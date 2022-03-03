@@ -8,10 +8,12 @@ import {ScratchModel} from "./scratch.model";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'scratching-game';
-  scratches: ScratchModel[] = []
-  private readonly userId: number = Math.floor(Math.random()*90000) + 10000;
+  title = 'Kras Loterij';
+  isScratched=false;
+  userId='';
+  scratches: ScratchModel[] = [];
   constructor(private appService: AppService) {
+    this.userId = this.appService.getUserId();
   }
 
   ngOnInit(): void {
@@ -25,8 +27,19 @@ export class AppComponent implements OnInit{
   }
 
   scratch(index: number){
-    this.scratches[index].userId = this.userId;
-    this.appService.updateData(this.scratches[index]).subscribe(()=>{})
+    console.log("isScratched is "+this.isScratched)
+    if(!this.isScratched)
+    {
+      this.appService.isScratchedByUser().subscribe((isScratchedServer: any) => {
+        this.isScratched = isScratchedServer;
+        if(!this.isScratched)
+        {
+          this.scratches[index].userId = this.appService.getUserId();
+          this.appService.updateData(this.scratches[index]).subscribe(()=>{})
+          this.isScratched = true;
+        }
+      })
+    }
   }
 
   counter(i: number) {

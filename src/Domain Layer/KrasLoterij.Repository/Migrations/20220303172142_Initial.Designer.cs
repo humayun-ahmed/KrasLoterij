@@ -10,7 +10,7 @@ using NederlandseLoterij.KrasLoterij.Repository;
 namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
 {
     [DbContext(typeof(KrasLoterijContext))]
-    [Migration("20220302234306_Initial")]
+    [Migration("20220303172142_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -41,503 +41,403 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 1L,
-                            Prize = 25000.0
+                            Id = 1L
                         },
                         new
                         {
-                            Id = 2L,
-                            Prize = 389.0
+                            Id = 2L
                         },
                         new
                         {
-                            Id = 3L,
-                            Prize = 256.0
+                            Id = 3L
                         },
                         new
                         {
-                            Id = 4L,
-                            Prize = 117.0
+                            Id = 4L
                         },
                         new
                         {
-                            Id = 5L,
-                            Prize = 413.0
+                            Id = 5L
                         },
                         new
                         {
-                            Id = 6L,
-                            Prize = 225.0
+                            Id = 6L
                         },
                         new
                         {
-                            Id = 7L,
-                            Prize = 848.0
+                            Id = 7L
                         },
                         new
                         {
-                            Id = 8L,
-                            Prize = 555.0
+                            Id = 8L
                         },
                         new
                         {
-                            Id = 9L,
-                            Prize = 224.0
+                            Id = 9L
                         },
                         new
                         {
-                            Id = 10L,
-                            Prize = 265.0
+                            Id = 10L
                         },
                         new
                         {
-                            Id = 11L,
-                            Prize = 508.0
+                            Id = 11L
                         },
                         new
                         {
-                            Id = 12L,
-                            Prize = 119.0
+                            Id = 12L
                         },
                         new
                         {
-                            Id = 13L,
-                            Prize = 546.0
+                            Id = 13L
                         },
                         new
                         {
-                            Id = 14L,
-                            Prize = 207.0
+                            Id = 14L
                         },
                         new
                         {
-                            Id = 15L,
-                            Prize = 151.0
+                            Id = 15L
                         },
                         new
                         {
-                            Id = 16L,
-                            Prize = 74.0
+                            Id = 16L
                         },
                         new
                         {
-                            Id = 17L,
-                            Prize = 517.0
+                            Id = 17L
                         },
                         new
                         {
-                            Id = 18L,
-                            Prize = 666.0
+                            Id = 18L
                         },
                         new
                         {
-                            Id = 19L,
-                            Prize = 202.0
+                            Id = 19L
                         },
                         new
                         {
-                            Id = 20L,
-                            Prize = 580.0
+                            Id = 20L
                         },
                         new
                         {
-                            Id = 21L,
-                            Prize = 611.0
+                            Id = 21L
                         },
                         new
                         {
-                            Id = 22L,
-                            Prize = 838.0
+                            Id = 22L
                         },
                         new
                         {
-                            Id = 23L,
-                            Prize = 170.0
+                            Id = 23L
                         },
                         new
                         {
-                            Id = 24L,
-                            Prize = 978.0
+                            Id = 24L
                         },
                         new
                         {
-                            Id = 25L,
-                            Prize = 30.0
+                            Id = 25L
                         },
                         new
                         {
-                            Id = 26L,
-                            Prize = 819.0
+                            Id = 26L
                         },
                         new
                         {
-                            Id = 27L,
-                            Prize = 274.0
+                            Id = 27L
                         },
                         new
                         {
-                            Id = 28L,
-                            Prize = 159.0
+                            Id = 28L
                         },
                         new
                         {
-                            Id = 29L,
-                            Prize = 464.0
+                            Id = 29L
                         },
                         new
                         {
-                            Id = 30L,
-                            Prize = 863.0
+                            Id = 30L
                         },
                         new
                         {
-                            Id = 31L,
-                            Prize = 133.0
+                            Id = 31L
                         },
                         new
                         {
-                            Id = 32L,
-                            Prize = 969.0
+                            Id = 32L
                         },
                         new
                         {
-                            Id = 33L,
-                            Prize = 722.0
+                            Id = 33L
                         },
                         new
                         {
-                            Id = 34L,
-                            Prize = 460.0
+                            Id = 34L
                         },
                         new
                         {
-                            Id = 35L,
-                            Prize = 138.0
+                            Id = 35L
                         },
                         new
                         {
-                            Id = 36L,
-                            Prize = 582.0
+                            Id = 36L
                         },
                         new
                         {
-                            Id = 37L,
-                            Prize = 707.0
+                            Id = 37L
                         },
                         new
                         {
-                            Id = 38L,
-                            Prize = 889.0
+                            Id = 38L
                         },
                         new
                         {
-                            Id = 39L,
-                            Prize = 275.0
+                            Id = 39L
                         },
                         new
                         {
-                            Id = 40L,
-                            Prize = 869.0
+                            Id = 40L
                         },
                         new
                         {
-                            Id = 41L,
-                            Prize = 522.0
+                            Id = 41L
                         },
                         new
                         {
-                            Id = 42L,
-                            Prize = 324.0
+                            Id = 42L
                         },
                         new
                         {
-                            Id = 43L,
-                            Prize = 284.0
+                            Id = 43L
                         },
                         new
                         {
-                            Id = 44L,
-                            Prize = 609.0
+                            Id = 44L
                         },
                         new
                         {
-                            Id = 45L,
-                            Prize = 299.0
+                            Id = 45L
                         },
                         new
                         {
-                            Id = 46L,
-                            Prize = 849.0
+                            Id = 46L
                         },
                         new
                         {
-                            Id = 47L,
-                            Prize = 149.0
+                            Id = 47L
                         },
                         new
                         {
-                            Id = 48L,
-                            Prize = 979.0
+                            Id = 48L
                         },
                         new
                         {
-                            Id = 49L,
-                            Prize = 182.0
+                            Id = 49L
                         },
                         new
                         {
-                            Id = 50L,
-                            Prize = 40.0
+                            Id = 50L
                         },
                         new
                         {
-                            Id = 51L,
-                            Prize = 914.0
+                            Id = 51L
                         },
                         new
                         {
-                            Id = 52L,
-                            Prize = 466.0
+                            Id = 52L
                         },
                         new
                         {
-                            Id = 53L,
-                            Prize = 571.0
+                            Id = 53L
                         },
                         new
                         {
-                            Id = 54L,
-                            Prize = 43.0
+                            Id = 54L
                         },
                         new
                         {
-                            Id = 55L,
-                            Prize = 217.0
+                            Id = 55L
                         },
                         new
                         {
-                            Id = 56L,
-                            Prize = 267.0
+                            Id = 56L
                         },
                         new
                         {
-                            Id = 57L,
-                            Prize = 219.0
+                            Id = 57L
                         },
                         new
                         {
-                            Id = 58L,
-                            Prize = 277.0
+                            Id = 58L
                         },
                         new
                         {
-                            Id = 59L,
-                            Prize = 87.0
+                            Id = 59L
                         },
                         new
                         {
-                            Id = 60L,
-                            Prize = 594.0
+                            Id = 60L
                         },
                         new
                         {
-                            Id = 61L,
-                            Prize = 950.0
+                            Id = 61L
                         },
                         new
                         {
-                            Id = 62L,
-                            Prize = 689.0
+                            Id = 62L
                         },
                         new
                         {
-                            Id = 63L,
-                            Prize = 91.0
+                            Id = 63L
                         },
                         new
                         {
-                            Id = 64L,
-                            Prize = 361.0
+                            Id = 64L
                         },
                         new
                         {
-                            Id = 65L,
-                            Prize = 131.0
+                            Id = 65L
                         },
                         new
                         {
-                            Id = 66L,
-                            Prize = 538.0
+                            Id = 66L
                         },
                         new
                         {
-                            Id = 67L,
-                            Prize = 396.0
+                            Id = 67L
                         },
                         new
                         {
-                            Id = 68L,
-                            Prize = 85.0
+                            Id = 68L
                         },
                         new
                         {
-                            Id = 69L,
-                            Prize = 68.0
+                            Id = 69L
                         },
                         new
                         {
-                            Id = 70L,
-                            Prize = 568.0
+                            Id = 70L
                         },
                         new
                         {
-                            Id = 71L,
-                            Prize = 366.0
+                            Id = 71L
                         },
                         new
                         {
-                            Id = 72L,
-                            Prize = 627.0
+                            Id = 72L
                         },
                         new
                         {
-                            Id = 73L,
-                            Prize = 390.0
+                            Id = 73L
                         },
                         new
                         {
-                            Id = 74L,
-                            Prize = 332.0
+                            Id = 74L
                         },
                         new
                         {
-                            Id = 75L,
-                            Prize = 57.0
+                            Id = 75L
                         },
                         new
                         {
-                            Id = 76L,
-                            Prize = 287.0
+                            Id = 76L
                         },
                         new
                         {
-                            Id = 77L,
-                            Prize = 554.0
+                            Id = 77L
                         },
                         new
                         {
-                            Id = 78L,
-                            Prize = 561.0
+                            Id = 78L
                         },
                         new
                         {
-                            Id = 79L,
-                            Prize = 678.0
+                            Id = 79L
                         },
                         new
                         {
-                            Id = 80L,
-                            Prize = 181.0
+                            Id = 80L
                         },
                         new
                         {
-                            Id = 81L,
-                            Prize = 669.0
+                            Id = 81L
                         },
                         new
                         {
-                            Id = 82L,
-                            Prize = 295.0
+                            Id = 82L
                         },
                         new
                         {
-                            Id = 83L,
-                            Prize = 976.0
+                            Id = 83L
                         },
                         new
                         {
-                            Id = 84L,
-                            Prize = 424.0
+                            Id = 84L
                         },
                         new
                         {
-                            Id = 85L,
-                            Prize = 949.0
+                            Id = 85L
                         },
                         new
                         {
-                            Id = 86L,
-                            Prize = 667.0
+                            Id = 86L
                         },
                         new
                         {
-                            Id = 87L,
-                            Prize = 398.0
+                            Id = 87L
                         },
                         new
                         {
-                            Id = 88L,
-                            Prize = 679.0
+                            Id = 88L
                         },
                         new
                         {
-                            Id = 89L,
-                            Prize = 243.0
+                            Id = 89L
                         },
                         new
                         {
-                            Id = 90L,
-                            Prize = 871.0
+                            Id = 90L
                         },
                         new
                         {
-                            Id = 91L,
-                            Prize = 363.0
+                            Id = 91L
                         },
                         new
                         {
-                            Id = 92L,
-                            Prize = 429.0
+                            Id = 92L
                         },
                         new
                         {
-                            Id = 93L,
-                            Prize = 802.0
+                            Id = 93L
                         },
                         new
                         {
-                            Id = 94L,
-                            Prize = 681.0
+                            Id = 94L
                         },
                         new
                         {
-                            Id = 95L,
-                            Prize = 919.0
+                            Id = 95L
                         },
                         new
                         {
-                            Id = 96L,
-                            Prize = 833.0
+                            Id = 96L
                         },
                         new
                         {
-                            Id = 97L,
-                            Prize = 232.0
+                            Id = 97L
                         },
                         new
                         {
-                            Id = 98L,
-                            Prize = 923.0
+                            Id = 98L
                         },
                         new
                         {
-                            Id = 99L,
-                            Prize = 477.0
+                            Id = 99L
                         },
                         new
                         {
-                            Id = 100L,
-                            Prize = 761.0
+                            Id = 100L
                         },
                         new
                         {
@@ -857,7 +757,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 180L
+                            Id = 180L,
+                            Prize = 232.0
                         },
                         new
                         {
@@ -1117,7 +1018,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 245L
+                            Id = 245L,
+                            Prize = 367.0
                         },
                         new
                         {
@@ -1125,7 +1027,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 247L
+                            Id = 247L,
+                            Prize = 635.0
                         },
                         new
                         {
@@ -1377,7 +1280,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 310L
+                            Id = 310L,
+                            Prize = 825.0
                         },
                         new
                         {
@@ -2069,7 +1973,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 483L
+                            Id = 483L,
+                            Prize = 325.0
                         },
                         new
                         {
@@ -4893,7 +4798,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1189L
+                            Id = 1189L,
+                            Prize = 271.0
                         },
                         new
                         {
@@ -4953,7 +4859,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1204L
+                            Id = 1204L,
+                            Prize = 391.0
                         },
                         new
                         {
@@ -5309,7 +5216,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1293L
+                            Id = 1293L,
+                            Prize = 135.0
                         },
                         new
                         {
@@ -5577,7 +5485,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1360L
+                            Id = 1360L,
+                            Prize = 157.0
                         },
                         new
                         {
@@ -5917,7 +5826,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1445L
+                            Id = 1445L,
+                            Prize = 326.0
                         },
                         new
                         {
@@ -6025,7 +5935,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1472L
+                            Id = 1472L,
+                            Prize = 208.0
                         },
                         new
                         {
@@ -6169,7 +6080,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1508L
+                            Id = 1508L,
+                            Prize = 467.0
                         },
                         new
                         {
@@ -6257,7 +6169,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1530L
+                            Id = 1530L,
+                            Prize = 360.0
                         },
                         new
                         {
@@ -6397,7 +6310,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1565L
+                            Id = 1565L,
+                            Prize = 979.0
                         },
                         new
                         {
@@ -6701,7 +6615,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1641L
+                            Id = 1641L,
+                            Prize = 620.0
                         },
                         new
                         {
@@ -7489,7 +7404,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1838L
+                            Id = 1838L,
+                            Prize = 325.0
                         },
                         new
                         {
@@ -7749,7 +7665,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1903L
+                            Id = 1903L,
+                            Prize = 898.0
                         },
                         new
                         {
@@ -7793,7 +7710,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1914L
+                            Id = 1914L,
+                            Prize = 485.0
                         },
                         new
                         {
@@ -8109,7 +8027,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 1993L
+                            Id = 1993L,
+                            Prize = 538.0
                         },
                         new
                         {
@@ -9061,7 +8980,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 2231L
+                            Id = 2231L,
+                            Prize = 499.0
                         },
                         new
                         {
@@ -9233,7 +9153,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 2274L
+                            Id = 2274L,
+                            Prize = 67.0
                         },
                         new
                         {
@@ -10233,7 +10154,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 2524L
+                            Id = 2524L,
+                            Prize = 633.0
                         },
                         new
                         {
@@ -10393,7 +10315,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 2564L
+                            Id = 2564L,
+                            Prize = 128.0
                         },
                         new
                         {
@@ -10497,7 +10420,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 2590L
+                            Id = 2590L,
+                            Prize = 872.0
                         },
                         new
                         {
@@ -10657,7 +10581,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 2630L
+                            Id = 2630L,
+                            Prize = 234.0
                         },
                         new
                         {
@@ -10869,7 +10794,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 2683L
+                            Id = 2683L,
+                            Prize = 614.0
                         },
                         new
                         {
@@ -10925,7 +10851,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 2697L
+                            Id = 2697L,
+                            Prize = 75.0
                         },
                         new
                         {
@@ -11729,7 +11656,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 2898L
+                            Id = 2898L,
+                            Prize = 429.0
                         },
                         new
                         {
@@ -12161,7 +12089,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 3006L
+                            Id = 3006L,
+                            Prize = 901.0
                         },
                         new
                         {
@@ -12301,7 +12230,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 3041L
+                            Id = 3041L,
+                            Prize = 420.0
                         },
                         new
                         {
@@ -13237,7 +13167,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 3275L
+                            Id = 3275L,
+                            Prize = 917.0
                         },
                         new
                         {
@@ -13385,7 +13316,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 3312L
+                            Id = 3312L,
+                            Prize = 413.0
                         },
                         new
                         {
@@ -14605,7 +14537,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 3617L
+                            Id = 3617L,
+                            Prize = 720.0
                         },
                         new
                         {
@@ -15009,7 +14942,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 3718L
+                            Id = 3718L,
+                            Prize = 25.0
                         },
                         new
                         {
@@ -15169,7 +15103,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 3758L
+                            Id = 3758L,
+                            Prize = 753.0
                         },
                         new
                         {
@@ -15441,7 +15376,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 3826L
+                            Id = 3826L,
+                            Prize = 409.0
                         },
                         new
                         {
@@ -15505,7 +15441,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 3842L
+                            Id = 3842L,
+                            Prize = 20.0
                         },
                         new
                         {
@@ -16241,7 +16178,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 4026L
+                            Id = 4026L,
+                            Prize = 393.0
                         },
                         new
                         {
@@ -16529,7 +16467,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 4098L
+                            Id = 4098L,
+                            Prize = 196.0
                         },
                         new
                         {
@@ -16961,7 +16900,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 4206L
+                            Id = 4206L,
+                            Prize = 883.0
                         },
                         new
                         {
@@ -18165,7 +18105,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 4507L
+                            Id = 4507L,
+                            Prize = 525.0
                         },
                         new
                         {
@@ -18509,7 +18450,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 4593L
+                            Id = 4593L,
+                            Prize = 58.0
                         },
                         new
                         {
@@ -18681,7 +18623,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 4636L
+                            Id = 4636L,
+                            Prize = 115.0
                         },
                         new
                         {
@@ -18765,7 +18708,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 4657L
+                            Id = 4657L,
+                            Prize = 100.0
                         },
                         new
                         {
@@ -19561,7 +19505,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 4856L
+                            Id = 4856L,
+                            Prize = 571.0
                         },
                         new
                         {
@@ -19665,7 +19610,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 4882L
+                            Id = 4882L,
+                            Prize = 557.0
                         },
                         new
                         {
@@ -19885,7 +19831,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 4937L
+                            Id = 4937L,
+                            Prize = 837.0
                         },
                         new
                         {
@@ -20373,7 +20320,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 5059L
+                            Id = 5059L,
+                            Prize = 507.0
                         },
                         new
                         {
@@ -20549,7 +20497,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 5103L
+                            Id = 5103L,
+                            Prize = 31.0
                         },
                         new
                         {
@@ -20757,7 +20706,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 5155L
+                            Id = 5155L,
+                            Prize = 200.0
                         },
                         new
                         {
@@ -20981,7 +20931,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 5211L
+                            Id = 5211L,
+                            Prize = 23.0
                         },
                         new
                         {
@@ -21377,7 +21328,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 5310L
+                            Id = 5310L,
+                            Prize = 759.0
                         },
                         new
                         {
@@ -21477,7 +21429,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 5335L
+                            Id = 5335L,
+                            Prize = 373.0
                         },
                         new
                         {
@@ -22613,7 +22566,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 5619L
+                            Id = 5619L,
+                            Prize = 573.0
                         },
                         new
                         {
@@ -23309,7 +23263,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 5793L
+                            Id = 5793L,
+                            Prize = 186.0
                         },
                         new
                         {
@@ -23533,7 +23488,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 5849L
+                            Id = 5849L,
+                            Prize = 236.0
                         },
                         new
                         {
@@ -23645,7 +23601,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 5877L
+                            Id = 5877L,
+                            Prize = 489.0
                         },
                         new
                         {
@@ -24065,7 +24022,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 5982L
+                            Id = 5982L,
+                            Prize = 662.0
                         },
                         new
                         {
@@ -24385,7 +24343,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 6062L
+                            Id = 6062L,
+                            Prize = 873.0
                         },
                         new
                         {
@@ -24489,7 +24448,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 6088L
+                            Id = 6088L,
+                            Prize = 404.0
                         },
                         new
                         {
@@ -24869,7 +24829,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 6183L
+                            Id = 6183L,
+                            Prize = 25.0
                         },
                         new
                         {
@@ -25413,7 +25374,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 6319L
+                            Id = 6319L,
+                            Prize = 294.0
                         },
                         new
                         {
@@ -25613,7 +25575,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 6369L
+                            Id = 6369L,
+                            Prize = 513.0
                         },
                         new
                         {
@@ -25837,7 +25800,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 6425L
+                            Id = 6425L,
+                            Prize = 393.0
                         },
                         new
                         {
@@ -26641,7 +26605,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 6626L
+                            Id = 6626L,
+                            Prize = 116.0
                         },
                         new
                         {
@@ -26697,7 +26662,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 6640L
+                            Id = 6640L,
+                            Prize = 703.0
                         },
                         new
                         {
@@ -26909,7 +26875,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 6693L
+                            Id = 6693L,
+                            Prize = 56.0
                         },
                         new
                         {
@@ -27193,7 +27160,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 6764L
+                            Id = 6764L,
+                            Prize = 285.0
                         },
                         new
                         {
@@ -27393,7 +27361,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 6814L
+                            Id = 6814L,
+                            Prize = 348.0
                         },
                         new
                         {
@@ -27937,7 +27906,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 6950L
+                            Id = 6950L,
+                            Prize = 956.0
                         },
                         new
                         {
@@ -28201,11 +28171,13 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 7016L
+                            Id = 7016L,
+                            Prize = 903.0
                         },
                         new
                         {
-                            Id = 7017L
+                            Id = 7017L,
+                            Prize = 718.0
                         },
                         new
                         {
@@ -28725,7 +28697,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 7147L
+                            Id = 7147L,
+                            Prize = 617.0
                         },
                         new
                         {
@@ -28793,7 +28766,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 7164L
+                            Id = 7164L,
+                            Prize = 7.0
                         },
                         new
                         {
@@ -29121,7 +29095,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 7246L
+                            Id = 7246L,
+                            Prize = 539.0
                         },
                         new
                         {
@@ -29517,7 +29492,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 7345L
+                            Id = 7345L,
+                            Prize = 849.0
                         },
                         new
                         {
@@ -30397,7 +30373,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 7565L
+                            Id = 7565L,
+                            Prize = 784.0
                         },
                         new
                         {
@@ -30453,7 +30430,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 7579L
+                            Id = 7579L,
+                            Prize = 384.0
                         },
                         new
                         {
@@ -31473,7 +31451,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 7834L
+                            Id = 7834L,
+                            Prize = 25000.0
                         },
                         new
                         {
@@ -31485,7 +31464,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 7837L
+                            Id = 7837L,
+                            Prize = 408.0
                         },
                         new
                         {
@@ -31601,7 +31581,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 7866L
+                            Id = 7866L,
+                            Prize = 575.0
                         },
                         new
                         {
@@ -32317,7 +32298,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8045L
+                            Id = 8045L,
+                            Prize = 488.0
                         },
                         new
                         {
@@ -32685,7 +32667,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8137L
+                            Id = 8137L,
+                            Prize = 544.0
                         },
                         new
                         {
@@ -32833,7 +32816,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8174L
+                            Id = 8174L,
+                            Prize = 290.0
                         },
                         new
                         {
@@ -32853,7 +32837,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8179L
+                            Id = 8179L,
+                            Prize = 188.0
                         },
                         new
                         {
@@ -33921,7 +33906,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8446L
+                            Id = 8446L,
+                            Prize = 38.0
                         },
                         new
                         {
@@ -33993,7 +33979,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8464L
+                            Id = 8464L,
+                            Prize = 42.0
                         },
                         new
                         {
@@ -34053,7 +34040,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8479L
+                            Id = 8479L,
+                            Prize = 786.0
                         },
                         new
                         {
@@ -34273,7 +34261,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8534L
+                            Id = 8534L,
+                            Prize = 779.0
                         },
                         new
                         {
@@ -34393,7 +34382,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8564L
+                            Id = 8564L,
+                            Prize = 669.0
                         },
                         new
                         {
@@ -35345,7 +35335,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8802L
+                            Id = 8802L,
+                            Prize = 357.0
                         },
                         new
                         {
@@ -35741,7 +35732,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8901L
+                            Id = 8901L,
+                            Prize = 118.0
                         },
                         new
                         {
@@ -35785,7 +35777,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8912L
+                            Id = 8912L,
+                            Prize = 785.0
                         },
                         new
                         {
@@ -36089,7 +36082,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 8988L
+                            Id = 8988L,
+                            Prize = 409.0
                         },
                         new
                         {
@@ -36893,7 +36887,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 9189L
+                            Id = 9189L,
+                            Prize = 885.0
                         },
                         new
                         {
@@ -37361,7 +37356,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 9306L
+                            Id = 9306L,
+                            Prize = 520.0
                         },
                         new
                         {
@@ -37873,7 +37869,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 9434L
+                            Id = 9434L,
+                            Prize = 673.0
                         },
                         new
                         {
@@ -37969,7 +37966,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 9458L
+                            Id = 9458L,
+                            Prize = 85.0
                         },
                         new
                         {
@@ -38229,7 +38227,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 9523L
+                            Id = 9523L,
+                            Prize = 869.0
                         },
                         new
                         {
@@ -38585,7 +38584,8 @@ namespace NederlandseLoterij.KrasLoterij.Repository.Migrations
                         },
                         new
                         {
-                            Id = 9612L
+                            Id = 9612L,
+                            Prize = 118.0
                         },
                         new
                         {

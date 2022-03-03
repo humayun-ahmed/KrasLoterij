@@ -1,11 +1,11 @@
 <span class="message"> {{message}}</span>
 <span class="user-id">UserId: {{userId}}</span>
-<table *ngIf="scratches.length == 10000">
+<table *ngIf="lotteries.length == 10000">
   <tbody>
   <tr *ngFor="let row of counter(100); let i = index">
     <td  *ngFor="let col of counter(100); let j = index" class="cell" >
-      <div class="item" (click)="scratch((i) + (j * 100))" [ngClass]=" (scratches[(i) + (j * 100)].userId != null) ? 'item-unlocked' : 'item-locked'">
-        <span *ngIf="scratches[(i) + (j * 100)].userId != null">{{scratches[(i) + (j * 100)].prize}}</span>
+      <div class="item" (click)="scratch((i) + (j * 100))" [ngClass]=" (lotteries[(i) + (j * 100)].userId != null) ? 'item-unlocked' : 'item-locked'">
+        <span *ngIf="lotteries[(i) + (j * 100)].userId != null">{{lotteries[(i) + (j * 100)].prize}}</span>
       </div>
     </td>
   </tr>

@@ -1,6 +1,6 @@
 import {Injectable} from "@angular/core";
 import {HttpClient} from "@angular/common/http";
-import {ScratchModel} from "./scratch.model";
+import {LotteryModel} from "./lotteryModel";
 
 @Injectable({
   providedIn: 'root'

@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {AppService} from "./app.service";
-import {ScratchModel} from "./scratch.model";
+import {LotteryModel} from "./lotteryModel";
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,7 @@ export class AppComponent implements OnInit{
   isScratched=false;
   userId='';
   message='';
-  scratches: ScratchModel[] = [];
+  lotteries: LotteryModel[] = [];
   constructor(private appService: AppService) {
     this.userId = this.appService.getUserId();
   }
@@ -22,8 +22,8 @@ export class AppComponent implements OnInit{
   }
 
   getData(){
-    this.appService.getData().subscribe((scratches: any) => {
-      this.scratches = scratches;
+    this.appService.getData().subscribe((lotteries: any) => {
+      this.lotteries = lotteries;
         console.log("Http get called.")
     },
       (error) => {                              //Error callback
@@ -39,8 +39,8 @@ export class AppComponent implements OnInit{
         this.isScratched = isScratchedServer;
         if(!this.isScratched)
         {
-          this.scratches[index].userId = this.appService.getUserId();
-          this.appService.updateData(this.scratches[index]).subscribe(()=>{
+          this.lotteries[index].userId = this.appService.getUserId();
+          this.appService.updateData(this.lotteries[index]).subscribe(()=>{
             console.log("Http scratch called.")
             },
             (error) => {                              //Error callback

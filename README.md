@@ -1,32 +1,31 @@
-# TvMazeScraper & API
+# Overview
+This is a new promotional game. There is a surprise calendar with 10000 scratchable areas. In one area there is the main prize of 25000 euros.
+There are 100 consolation prizes hidden. A visitor of the website can only scratch open one area. They can see which squares have already been opened by other users.
+ 
+ ## Technologies
+* ASP.NET 5
+* Angular 13
 
-### Tools
-- Visual Studio 2019
-- SQL Server
-
-### Technologies
-- .Net 5
-- Asp .Net Core 
-- MS Unit test
-- EntityFramework Core
-- FluentValidation
-- Polly
-
-
-#### Download the source code 
-https://github.com/humayun-ahmed/TvMazeScraper.git
-
-#### Run the project
-- Open the solution TvMaze.sln and build
-- Set Api project as startup
-- Change database connection string "TvMazeContext" in all appsettings*.json
-
-#### Swagger
-Swagger api documentation are available, endpoint is http://localhost:54438/swagger
-
-#### Background service
-2 background service:
-1. ScraperHost nightly scheduler, will run every night at 10 PM.
-2. ScraperHostInstant immediately run and will migrate database and start scraping the data from TvMaze api
-
-One azure function ScraperFunction is there but it is not fully functional
+# Getting Started
+ This following application/tools need to be install in computer as prerequisite
+  
+ ## Prerequisites
+  1. Install [.NET 5](https://dotnet.microsoft.com/en-us/download/dotnet/5.0) (skip if already installed)
+  2. Install [Node.js LTS](https://nodejs.org/en/) (skip if already installed)
+  3. Install [Angular Cli](https://angular.io/cli) by running the command 'npm install -g @angular/cli' from command prompt  (skip if already installed)
+  
+  
+  ## Setup Appication
+  Clone the repository with 'git clone https://github.com/humayun-ahmed/KrasLoterij.git' command if git cli is installed or download project as zip from 'https://github.com/humayun-ahmed/KrasLoterij.git'
+  
+   ### Run DOT.NET Core Application	
+   1. Open project folder and click KrasLoterij.sln to open the project with visual studio.
+   2. Run the project with visual studio and project will be run on localhost port:5000.  
+  
+   ### Run Angular Application
+   1. Open project folder and move to src/client directory and click shift and mouse right button together then open from here power-shell/command-prompt.
+   2. Run 'npm install' to install all the node packages for the angular appication.
+   3. Run 'npm start' command to run the application on 'http://localhost:4200'
+   4. Refresh the browser to generate the new session with new user id
+   
+  

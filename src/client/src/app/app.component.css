@@ -1,0 +1,23 @@
+.cell{
+  padding: 0px;
+}
+.item{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.item:hover{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background: #dce7fd;
+  border: 2px solid #a9cafd;
+}
+.item-locked{
+  background: #e4e9f5;
+}
+.item-unlocked{
+  background: #a9cafd;
+  pointer-events: none;
+}
+

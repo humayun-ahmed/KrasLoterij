@@ -60,6 +60,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "client", "src\client\", "{0
 		SlnRelativePath = "src\client\"
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KrasLoterij.Service.Test", "src\Domain Layer\KrasLoterij.Service.Test\KrasLoterij.Service.Test.csproj", "{CC7E63D0-4B52-4BEE-BA11-C781F535D2B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +112,10 @@ Global
 		{08DECB6E-7CC7-4F78-B315-DBB6BBEB56B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08DECB6E-7CC7-4F78-B315-DBB6BBEB56B2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{08DECB6E-7CC7-4F78-B315-DBB6BBEB56B2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CC7E63D0-4B52-4BEE-BA11-C781F535D2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7E63D0-4B52-4BEE-BA11-C781F535D2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7E63D0-4B52-4BEE-BA11-C781F535D2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7E63D0-4B52-4BEE-BA11-C781F535D2B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +136,7 @@ Global
 		{43D933B5-25A1-4AEC-964E-E1CEB7B64997} = {E546F55C-8090-48C9-8BB8-89CE6A00F6FE}
 		{D01357A5-E83E-4905-8F9E-B9228EDE2BD6} = {02BA8159-703A-43FF-B596-E4AD3C304261}
 		{C88CD7A2-8448-4729-A32D-C1A6C1585B5D} = {02BA8159-703A-43FF-B596-E4AD3C304261}
+		{CC7E63D0-4B52-4BEE-BA11-C781F535D2B5} = {02BA8159-703A-43FF-B596-E4AD3C304261}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {65B3D57F-6587-4020-ADC6-D57D41494C41}

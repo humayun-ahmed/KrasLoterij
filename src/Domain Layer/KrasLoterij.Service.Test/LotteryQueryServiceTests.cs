@@ -6,8 +6,6 @@ using Infrastructure.Repository.Contracts;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using NederlandseLoterij.KrasLoterij.Repository.Entity;
-using NederlandseLoterij.KrasLoterij.Service.Contracts;
-using NederlandseLoterij.KrasLoterij.Service.Contracts.DTO;
 
 namespace NederlandseLoterij.KrasLoterij.Service.Test
 {
@@ -17,14 +15,17 @@ namespace NederlandseLoterij.KrasLoterij.Service.Test
         [TestMethod]
         public async Task Scratch_Fail()
         {
-            ScratchCommand command = new ScratchCommand();
+         
             var mockRepository = new Mock<IReadOnlyRepository>();
+            mockRepository.Setup(s => s.AnyAsync<Lottery>(a => a.UserId == It.IsAny<Guid>())).ReturnsAsync(() => false);
 
             var mockMapper = new Mock<IMapper>();
 
             var service = new LotteryQueryService(mockRepository.Object, mockMapper.Object);
-            
-            await service.GetAllLotteriesAsync();
+
+            var isScratched = await service.IsScratchedByUserAsync(Guid.NewGuid());
+
+            mockRepository.Verify(m => m.AnyAsync(It.IsAny<Expression<Func<Lottery, bool>>>()), Times.Once());
         }
     }
 }

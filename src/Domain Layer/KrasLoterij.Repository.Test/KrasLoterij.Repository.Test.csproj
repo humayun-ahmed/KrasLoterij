@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyName>NederlandseLoterij.KrasLoterij.Repository.Test</AssemblyName>
+
+    <RootNamespace>NederlandseLoterij.KrasLoterij.Repository.Test</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
+    <!--<PackageReference Include="coverlet.collector" Version="1.2.0" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\DataAccess\Repository.Contracts\Repository.Contracts.csproj" />
+    <ProjectReference Include="..\KrasLoterij.Repository\KrasLoterij.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

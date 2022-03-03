@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>NederlandseLoterij.KrasLoterij.Validators</AssemblyName>
+    <RootNamespace>NederlandseLoterij.KrasLoterij.Validators</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain Layer\KrasLoterij.Service.Contracts\KrasLoterij.Service.Contracts.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Validation\Validator\Validator.csproj" />
+  </ItemGroup>
+
+</Project>

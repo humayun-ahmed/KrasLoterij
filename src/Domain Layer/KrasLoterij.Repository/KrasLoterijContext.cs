@@ -18,6 +18,9 @@ namespace NederlandseLoterij.KrasLoterij.Repository
 
         public DbSet<Lottery> Lottery { get; set; }
 
+        public DbSet<RequestLog> RequestLog { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new LotteryConfiguration());
